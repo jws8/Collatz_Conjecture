@@ -2,7 +2,7 @@
 #Method to show conjecture pattern based off of a number
 #Output:
 #Iterations to show length vs. num 
-#Range 
+#Range of pattern
 def collatz_conjecture(num):
     conject_list = [num]
     #While loop to catch repetitive conjecture pattern 4-2-1
@@ -13,7 +13,6 @@ def collatz_conjecture(num):
         #Number is odd   
         else:
             num = num*3 + 1
-        
         conject_list.append(num)
 
     print(conject_list)
