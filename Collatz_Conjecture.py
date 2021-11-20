@@ -6,6 +6,7 @@
 #Output:
 #Iterations to show length vs. num 
 #Range of pattern
+
 def collatz_conjecture(num):
     conject_list = [num]
     #While loop to catch repetitive Collatz pattern 4-2-1
@@ -22,7 +23,7 @@ def collatz_conjecture(num):
     conject_list.sort()
     print("Range of Collatz Conjecture: [" + str(conject_list[0]) + ", " + 
     str(conject_list[len(conject_list) - 1]) + "]")
-    print("Iterations: " + str(len(conject_list)))
+    print("Iterations in Collatz Conjecture: " + str(len(conject_list)))
 
 #Run
 num = int(input("Enter a number for the Collatz Conjecture: "))
