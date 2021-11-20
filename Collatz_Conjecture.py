@@ -1,7 +1,8 @@
 #Collatz Conjecture 
 #Method to show conjecture pattern based off of a number
-#Iterations variable to show length vs. number given
-#
+#Output:
+#Iterations to show length vs. num 
+#Range 
 def collatz_conjecture(num):
     conject_list = [num]
     #While loop to catch repetitive conjecture pattern 4-2-1
