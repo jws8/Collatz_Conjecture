@@ -4,8 +4,7 @@
 #Method to show Collatz pattern based off of a number
 #Input: number to generate Collatz pattern
 #Output:
-#Range of pattern
-#Iterations 
+#Graph of Collatz conjecture based off of n given and a comparison n = 7
 import matplotlib.pyplot as plt
 import numpy as np
 
